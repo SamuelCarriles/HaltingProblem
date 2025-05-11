@@ -10,8 +10,4 @@ A pesar de que Alan Turing demostró teóricamente que este enunciado era ***imp
 Mediante el enfoque Carthiano (llamémosle así) podemos desarrollar un programa capaz de analizar un algoritmo y una entrada y decirnos si se ejecutará indefinidamente o no.
 
 ## Demostración
-Para demostrar esto sentaremos las siguientes bases:
-1. El algoritmo se desarrollará en LISP o en un dialecto de este lenguaje.
-2. Se enfocará en aplicar la prueba a algoritmos desarrollados en su mismo lenguaje.
-
-Con esto planteado es momento de desarrollar el método a seguir para demostrar que el **Halting Problem** se puede solucionar.
+*El proceso de planificación para la demostración aún está en desarrollo...*
