@@ -10,4 +10,10 @@ A pesar de que Alan Turing demostró teóricamente que este enunciado era ***imp
 Mediante el enfoque Carthiano (llamémosle así) podemos desarrollar un programa capaz de analizar un algoritmo y una entrada y decirnos si se ejecutará indefinidamente o no.
 
 ## Demostración
-*El proceso de planificación para la demostración aún está en desarrollo...*
+La idea que tenemos está constituida por varios puntos:
+1. Desarrollar un ecosistema que podríamos llamar ***"Finite World"*** donde solo serán aceptados los programas o algoritmos finitos y los infinitos serán rechazados *(el propio ecosistema es finito)*.
+2. Definir reglas en este ecosistema que solo permitan existir a los  algoritmos finitos, y no algoritmos infinitos. Si se llega a la conclusión de que el programa no cumple con las reglas, simplemente se descarta como finito.
+3. Utilizar un lenguaje en común --yo propongo ***Clojure***--- y que cada algoritmo que se analice este en este lenguaje.
+
+### ¿Por qué utilizar Clojure?
+***Clojure*** es un dialecto de ***LISP***, y este último es el resultado palpable de las ideas de John McCarthey. Clojure integró pinceladas modernas a las ideas heredadas de ***LISP***.
